@@ -1,10 +1,10 @@
-// import { Routes, Route } from "react-router-dom";
-// import { LoginPage } from "../Pages/LoginPage/LoginPage";
+import { Routes, Route } from "react-router-dom";
+import { LoginPage } from "../Pages/LoginPage/LoginPage";
 
-// export const Router = () => {
-//   return (
-//     <Routes>
-//       <Route index element={<LoginPage />} />
-//     </Routes>
-//   );
-// };
+export const Router = () => {
+  return (
+    <Routes>
+      <Route index element={<LoginPage />} />
+    </Routes>
+  );
+};

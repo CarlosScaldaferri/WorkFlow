@@ -57,7 +57,8 @@ export const LoginPage = () => {
     }
 
     const body = { email, password, token };
-    logInData(body, setIsLoading, setErrorMessage, setBadRequest, loadingTimes);
+    // Comentado para rodar
+    //logInData(body, setIsLoading, setErrorMessage, setBadRequest, loadingTimes);
   };
 
   return (
