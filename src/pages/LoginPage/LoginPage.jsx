@@ -40,8 +40,8 @@ export const LoginPage = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const path = `${PATH}/users/login`;
-  const { logInData } = useRequestData(path);
+  //const path = `${PATH}/users/login`;
+  //const { logInData } = useRequestData(path);
 
   const [token, setToken] = useState(undefined);
   const [loadingTimes, setLoadingTimes] = useState(0);
