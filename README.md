@@ -13,3 +13,4 @@ FrontEnd de uma uma rede social com funções basicas
 ## BackEnd
 
 - https://github.com/CarlosScaldaferri/labeddit-BackEnd
+- https://remarkable-valkyrie-cdcccf.netlify.app/
